@@ -1,0 +1,73 @@
+body {
+    margin:0px;
+    background-color: #1f2023;
+}
+.navBar {
+    display: flex;
+    background-color:#1f2023;
+    border-bottom: 1px solid #333333;
+    padding: 10px;
+}
+.navBar .logo {
+    color:white;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+.loginMessage {
+    margin:15px;
+    padding-top: 15px;
+}
+.loginMessage .loginCongratz {
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.loginMessage a {
+    color:#e5f876;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    margin:15px;
+}
+.accessContent {
+    border-left: 10px solid #e5f876;
+    padding: 10px 10px;
+    background: #27282d;
+    max-width: 300px;
+    border-radius: 5px;
+}
+.accessContent .accessLevel {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.changePasswordBtn {
+    margin-top:15px;
+    background-color: #e5f876;
+    padding: 10px;
+    border-radius: 10px;
+    min-width: 200px;    
+    border: none;
+}
+.changePasswordBtn:hover {
+    background-color: #d2ee2e;
+    cursor: pointer;
+}
+.cashBtn {
+    margin-top:15px;
+    background-color: #63e82f;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    min-width: 200px;
+}
+.cashBtn:hover{
+    cursor: pointer;
+    background-color: #5dfa1f;
+}
+
+.disabled {
+    display: none;
+}
+.enable {
+    display:flex
+}
